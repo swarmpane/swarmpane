@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="g-core" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9ff3f2"/><stop offset="1" stop-color="#4a93f8"/></linearGradient>
+    <linearGradient id="g-tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16213f"/><stop offset="1" stop-color="#0c1224"/></linearGradient>
+  </defs>
+  <rect x="2" y="2" width="96" height="96" rx="23" fill="url(#g-tile)" stroke="#2a3a63" stroke-width="1.5"/>
+  <rect x="19" y="19" width="18" height="18" rx="4.5" fill="#1c2645"/>
+  <rect x="41" y="19" width="18" height="18" rx="4.5" fill="#22356a"/>
+  <rect x="63" y="19" width="18" height="18" rx="4.5" fill="#2c50ad"/>
+  <rect x="19" y="41" width="18" height="18" rx="4.5" fill="#22356a"/>
+  <rect x="41" y="41" width="18" height="18" rx="4.5" fill="#2c50ad"/>
+  <rect x="63" y="41" width="18" height="18" rx="4.5" fill="#3f7fe8"/>
+  <rect x="19" y="63" width="18" height="18" rx="4.5" fill="#2c50ad"/>
+  <rect x="41" y="63" width="18" height="18" rx="4.5" fill="#3f7fe8"/>
+  <rect x="66" y="66" width="18" height="18" rx="4.5" fill="url(#g-core)"/>
+  <rect x="63" y="22.5" width="18" height="1.6" fill="#ffffff" opacity=".19"/>
+  <rect x="63" y="44.5" width="18" height="1.6" fill="#ffffff" opacity=".25"/>
+  <rect x="41" y="66.5" width="18" height="1.6" fill="#ffffff" opacity=".25"/>
+  <circle cx="70" cy="70.5" r="1.3" fill="#0c1224"/><circle cx="74" cy="70.5" r="1.3" fill="#0c1224"/><circle cx="78" cy="70.5" r="1.3" fill="#0c1224"/>
+</svg>

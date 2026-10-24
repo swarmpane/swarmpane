@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Account, billing or a private question
+    url: https://swarmpane.com/contact
+    about: Write to support@swarmpane.com. It goes straight to the founder.
+  - name: Docs
+    url: https://swarmpane.com/docs
+    about: Install, accounts, workflows and troubleshooting.

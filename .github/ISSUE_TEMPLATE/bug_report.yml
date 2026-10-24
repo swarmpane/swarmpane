@@ -1,0 +1,49 @@
+name: Bug report
+description: Something in SwarmPane doesn't work the way it should
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting it. Please don't paste API keys, tokens or private code.
+  - type: input
+    id: version
+    attributes:
+      label: SwarmPane version
+      placeholder: "1.3.13"
+    validations:
+      required: true
+  - type: dropdown
+    id: computer
+    attributes:
+      label: Your computer
+      options:
+        - macOS (Apple silicon)
+        - macOS (Intel)
+        - Windows
+        - Linux
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: Which agent, if any
+      placeholder: Claude Code, Codex, Gemini CLI…
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what you expected instead
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen again
+      placeholder: |
+        1.
+        2.
+        3.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshot or anything else
+      description: Drag an image here if it helps.
